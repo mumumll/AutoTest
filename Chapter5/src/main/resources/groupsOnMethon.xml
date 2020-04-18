@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name = "groups">
+    <test name = "groupsmethod">
+        <groups>
+            <run>
+                <include name="server"/>
+                <include name="client"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.mumu.testng.groups.GroupsOnMethod"/>
+        </classes>
+    </test>
+</suite>
