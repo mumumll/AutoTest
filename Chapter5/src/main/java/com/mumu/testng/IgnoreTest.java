@@ -2,7 +2,10 @@ package com.mumu.testng;
 
 import org.testng.annotations.Test;
 
-public class Ignore {
+/**
+ * 忽略测试
+ */
+public class IgnoreTest {
     @Test
     public void ignore1() {
         System.out.print("igmore1 执行了");

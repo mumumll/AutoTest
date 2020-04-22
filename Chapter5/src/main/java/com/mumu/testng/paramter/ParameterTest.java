@@ -3,6 +3,9 @@ package com.mumu.testng.paramter;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+/**
+ * xml参数化测试
+ */
 public class ParameterTest {
     @Test
     @Parameters({"name", "age"})
